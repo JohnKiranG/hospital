@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class CreateConnect {
 	public static Connection createConnection() {
-		// DOWNLOAD AND ADD H2 JAR
+		// DOWNLOAD AND ADD H2 JAR.
 		
 		Connection conn = null;
 
