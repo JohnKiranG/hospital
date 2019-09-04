@@ -6,10 +6,23 @@ To run this project you need . <br>
 ### h2 database jar
 ### eclipse
 
+### To Run h2 db and create tables
+Got the the path of your local h2 database <br>
+ex: cd h2/h2/bin <br>
+To run this type in terminal <br>
+ex: ./h2.sh <br>
+
+Then it opens in browser, where you can configure.. <br>
+
+My db username: john <br>
+password: 12345 <br>
+
+### You have to change the username and password before running the project of your db
+
 Create tables by using below queries <br>
 // doctor table <br>
 CREATE TABLE DOCTOR( <br>
-    ID INT NOT NULL, <br>
+    ID INT NOT NULL AUTO_INCREMENT, <br>
     NAME VARCHAR(50), <br>
     PSSWD VARCHAR(50), <br>
     PRIMARY KEY (ID) <br>
@@ -17,7 +30,7 @@ CREATE TABLE DOCTOR( <br>
 
 // PATIENT TABLE <br>
 CREATE TABLE PATIENT( <br>
-    SERIAL INT NOT NULL, <br>
+    SERIAL INT NOT NULL AUTO_INCREMENT, <br>
     NAME VARCHAR(50), <br>
     ID INT, <br>
     AGE INT, <br>
@@ -30,7 +43,7 @@ CREATE TABLE PATIENT( <br>
 
 // receptionist table <br>
 CREATE TABLE RECEPTIONIST( <br>
-    ID INT NOT NULL, <br>
+    ID INT NOT NULL AUTO_INCREMENT, <br>
     NAME VARCHAR(50), <br>
     PSSWD VARCHAR(50), <br>
     PRIMARY KEY (ID) <br>
