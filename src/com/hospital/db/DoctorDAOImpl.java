@@ -10,7 +10,7 @@ public class DoctorDAOImpl {
 		
 		// query to create database table
 		// CREATE TABLE DOCTOR(
-		//	    ID INT NOT NULL,
+		//	    ID INT NOT NULL AUTO_INCREMENT,
 		//	    NAME VARCHAR(50),
 		//	    PSSWD VARCHAR(50),
 		//		PRIMARY KEY (ID)

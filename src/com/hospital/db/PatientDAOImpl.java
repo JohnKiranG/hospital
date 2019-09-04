@@ -11,7 +11,7 @@ public class PatientDAOImpl  {
 		
 		// query to create database table
 		//	CREATE TABLE PATIENT(
-		//	    SERIAL INT NOT NULL,
+		//	    SERIAL INT NOT NULL AUTO_INCREMENT,
 		//	    NAME VARCHAR(50),
 		//	    ID INT,
 		//	    AGE INT,
